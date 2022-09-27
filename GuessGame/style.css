@@ -1,0 +1,100 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Manrope', sans-serif;
+        background: royalblue;
+        background: no-repeat;
+    }
+    
+    .container {
+        margin: auto;
+        justify-content: center;
+    }
+    
+    .top {
+        color: black;
+        font-size: 2em;
+        padding: 10px;
+        margin-top: 40px;
+        text-align: center;
+    }
+    
+    #again_btn {
+        font-size: 20px;
+        padding: 5px;
+        border-radius: 7px;
+    }
+    
+    .centerpage {
+        text-align: center;
+        position: relative;
+    }
+    
+    hr {
+        border: 6px solid rgb(171, 171, 177);
+        margin-top: 50px;
+    }
+    
+    .headerx {}
+    
+    #quest {
+        font-size: 40px;
+        padding: 20px;
+        font-weight: bold;
+    }
+    
+    .left {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        width: 50%;
+        text-align: center;
+        align-items: center;
+    }
+    
+    #btn_check {
+        width: 30%;
+    }
+    
+    #btn_check:hover {
+        background-color: rgb(190, 224, 95);
+    }
+    
+    .right {
+        width: 50%;
+        text-align: center;
+        align-items: center;
+    }
+    
+    #guessbox {
+        margin-bottom: 20px;
+        margin-left: 10px;
+        width: 80px;
+        padding: 5px;
+        text-align: center;
+    }
+    
+    #btn_check {
+        padding: 5px;
+    }
+    
+    #main_bottom {
+        display: flex;
+        height: 55vh;
+    }
+    
+    .strtguess,
+    .label_score,
+    .label_highscore {
+        margin-top: 40px;
+    }
+    
+    .refresh {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    #again_btn:hover {
+        background-color: green;
+    }
